@@ -54,9 +54,10 @@ function CreateGroup(props) {
           !props.open ? "hidden" : "block"
         } backdrop blur-sm transition-all ease-linear transition ease-out duration-200`}
         onClick={handleModalShowHide}
-      ></div>
+      />
+      
       <div
-        className={`create__group__modal py-5 ${
+        className={`create__group__modal py-5 animation-[translateFromY_1s_ease-in_infinite] ${
           !props.open ? "hidden" : "block"
         }`}
       >

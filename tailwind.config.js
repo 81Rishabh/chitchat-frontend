@@ -5,8 +5,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      'spin': 'spin 1s ease-in-out infinite',
-       'translate' : 'translate .5s ease-in'
+       'spin': 'spin 1s ease-in-out infinite',
+       'translateFromY' : 'translateFromY 1s ease-in infinite'
     },
   },
   plugins: [],
